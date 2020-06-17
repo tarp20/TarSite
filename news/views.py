@@ -6,5 +6,9 @@ from django.http import HttpResponse
 
 
 def index(request):
-    print(request)
+    #print(request)
     return HttpResponse('Hello World, Im Django !')
+
+
+def test(request):
+    return HttpResponse('<h1>Test Page</h1>')
